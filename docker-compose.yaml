@@ -1,0 +1,7 @@
+version: '3'
+services:
+  myapp:
+    image: rangsiman/express
+    ports:
+      - "8000:8000"
+    command: "npm start"
